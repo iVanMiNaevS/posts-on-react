@@ -1,0 +1,26 @@
+.myModal {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: none;
+    background-color: rgb(0, 0, 0, 0.4);
+}
+
+.myModal.active {
+    display: flex;
+
+    justify-content: center;
+}
+.myModalContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #fffdd0;
+    width: 500px;
+    max-height: 300px;
+    margin-top: 200px;
+    padding: 30px;
+    border-radius: 10px;
+}
